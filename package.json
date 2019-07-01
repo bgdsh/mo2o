@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgdsh/mo2o.git"
+  },
   "scripts": {
     "build": "tsc",
     "pretest": "npm run compile",
@@ -14,7 +18,7 @@
     "prepare": "npm run compile",
     "posttest": "npm run check"
   },
-  "author": "",
+  "author": "Bai Guodong",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^24.0.15",
